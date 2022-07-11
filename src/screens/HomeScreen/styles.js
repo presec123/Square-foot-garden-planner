@@ -1,0 +1,82 @@
+import { StyleSheet } from 'react-native';
+
+export default StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: '#333333',
+  },
+  entityContainer: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignContent: 'center',
+    backgroundColor: '#1a1a1a',
+    borderRadius: 10,
+    borderWidth: 1,
+    borderColor: 'white',
+    marginTop: 16,
+    paddingBottom: 16,
+    height: 70,
+  },
+  plotBtn: {
+    borderRadius: 10,
+    color: '#fd0000',
+    alignSelf: 'center',
+    backgroundColor: '#1a1a1a',
+    width: 100,
+    height: 30,
+    marginTop: 10,
+    borderWidth: 1,
+    borderColor: 'red',
+  },
+  modalView: {
+    margin: 20,
+    backgroundColor: '#333333',
+    borderWidth: 2,
+    borderColor: 'black',
+    borderRadius: 20,
+    padding: 35,
+    alignItems: 'center',
+    shadowColor: '#000',
+    shadowOffset: {
+      width: 0,
+      height: 2,
+    },
+    shadowOpacity: 0.25,
+    shadowRadius: 4,
+    elevation: 5,
+  },
+  button: {
+    padding: 10,
+    width: 80,
+    borderRadius: 10,
+    marginTop: 10,
+    elevation: 2,
+    backgroundColor: '#1a1a1a',
+  },
+  buttonOpen: {
+    backgroundColor: '#F194FF',
+  },
+  buttonClose: {
+    backgroundColor: '#2196F3',
+  },
+  textStyle: {
+    color: 'white',
+    fontWeight: 'bold',
+    textAlign: 'center',
+    marginTop: 3,
+  },
+  modalText: {
+    marginBottom: 15,
+    textAlign: 'center',
+    color: 'white',
+    fontSize: 18,
+  },
+  input: {
+    height: 40,
+    margin: 12,
+    width: 80,
+    borderWidth: 1,
+    padding: 10,
+    borderColor: 'white',
+  },
+});

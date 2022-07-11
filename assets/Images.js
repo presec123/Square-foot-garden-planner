@@ -1,0 +1,22 @@
+export default Images = {
+  Strawberry: require('./img/Strawberry.png'),
+  Cabbage: require('./img/Cabbage.png'),
+  Broccoli: require('./img/Broccoli.png'),
+  Onion: require('./img/Onion.png'),
+  Garlic: require('./img/Garlic.png'),
+  Parsley: require('./img/Parsley.png'),
+  Pea: require('./img/Pea.png'),
+  Corn: require('./img/Corn.png'),
+  Potato: require('./img/Potato.png'),
+  Carrot: require('./img/Carrot.png'),
+  Pumpkin: require('./img/Pumpkin.png'),
+  Radish: require('./img/Radish.png'),
+  Shallot: require('./img/Shallot.png'),
+  Tomato: require('./img/Tomato.png'),
+
+  Cabbages: require('./img/Cabbages.png'),
+  Carrots: require('./img/Carrots.png'),
+  Pumpkins: require('./img/Pumpkins.png'),
+  Peas: require('./img/Peas.png'),
+  Garlics: require('./img/Garlics.png'),
+};
