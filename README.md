@@ -1,5 +1,7 @@
 # React Native Square foot garden planning tool with firebase
 
+Final year university Project - Grade: 80%
+
 ## Getting Started (with Expo)
 
 If you are using Expo Cli, clone the repo and run "expo start" in the root folder of the project:
