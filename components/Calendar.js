@@ -190,7 +190,7 @@ function Calendar({ crops }) {
                 `}
             />
 
-            {months.map((month, index) => {
+            {months.map((index) => {
               return (
                 <Line
                   key={`month-${index}-tick`}
